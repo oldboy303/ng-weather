@@ -1,0 +1,15 @@
+#header {
+  background-color: #424E78;
+  height: 40px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#logo {
+  text-decoration: none;
+  color: white;
+  font-size: 1.6em;
+  margin-left: -130px;
+}
+
