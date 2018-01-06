@@ -9,12 +9,12 @@
 
         $scope.city = weatherService.city;
 
-        $scope.forecast = weatherService.forecastAPI.get({
+        $scope.weatherResult = weatherService.forecastAPI.get({
           q: $scope.city,
           days: $scope.days
         });
 
-        console.log($scope.forecast);
+        console.log($scope.weatherResult);
 
       }]);
 
