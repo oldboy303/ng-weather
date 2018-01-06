@@ -10,6 +10,16 @@
           controller: 'homeCtrl'
         })
 
+        .when('/forecast', {
+          templateUrl: 'views/forecast.html',
+          controller: 'forecastCtrl'
+        })
+
+        .when('/forecast/:days', {
+          templateUrl: 'views/forecast.html',
+          controller: 'forecastCtrl'
+        })
+
     }]);
 
 }());

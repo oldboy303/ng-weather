@@ -3,8 +3,10 @@
 <form>
   <div class="row">
     <div class="six columns">
-      <input class="u-full-width" type="text" placeholder="City Name" id="city">
+      <input class="u-full-width" type="text" placeholder="City Name" id="city" ng-model="city">
     </div>
   </div>
   <a href="#/forecast" class="button">Get Forecast</a>
 </form>
+
+{{ city }}
