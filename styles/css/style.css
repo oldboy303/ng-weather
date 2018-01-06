@@ -1,15 +1,18 @@
 #header {
-  background-color: #424E78;
+  border: 1px solid;
   height: 40px;
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
 
 #logo {
   text-decoration: none;
-  color: white;
+  color: rgb(32, 32, 32);
   font-size: 1.6em;
-  margin-left: -130px;
+  margin-left: 2%;
+}
+
+.container {
+  margin-top: 50px;
+  width: 70%;
+  margin-left: 15%;
 }
 

@@ -5,21 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Angular Weather</title>
+  <!-- CSS -->
   <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="styles/css/normalize.css">
   <link rel="stylesheet" href="styles/css/skeleton.css">
   <link rel="stylesheet" href="styles/css/style.css">
+  <!-- favicon -->
   <link rel="icon" type="image/png" href="styles/images/favicon.png">
 </head>
 <body>
 
   <header id="header">
-    <div class="container">
+    <div>
       <a href="#/" id="logo">Angular Weather</a>
     </div>
   </header>
   
-  
+  <div class="container">
+    <ng-view></ng-view>
+  </div>
 
   <!-- angular -->
   <script src="https://code.angularjs.org/1.5.0-rc.2/angular.min.js"></script>
@@ -28,6 +32,7 @@
 
   <!-- app -->
   <script src="app.js"></script>
+  <script src="./controllers/home_ctrl.js"></script>
 
 </body>
 </html>
