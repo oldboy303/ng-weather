@@ -14,8 +14,6 @@
           days: $scope.days
         });
 
-        console.log($scope.weatherResult);
-
       }]);
 
 }());

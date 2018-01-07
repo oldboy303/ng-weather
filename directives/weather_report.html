@@ -1,13 +1,14 @@
 <table class="u-full-width">
-  <thead>
-    <tr>
-      <th>Date</th>
-      <th>Max Temp</th>
-      <th>Min Temp</th>
-      <th>Humidity</th>
-    </tr>
-  </thead>
-  <tbody>
-    
-  </tbody>
+  <tr>
+    <th>Date</th>
+    <th>Max Temp</th>
+    <th>Min Temp</th>
+    <th>Humidity</th>
+  </tr>
+  <tr ng-repeat="item in data">
+    <td>{{ item.date | date: 'EEE MMM dd' }}</td>
+    <td>{{ item.day.maxtemp_f }} &deg;</td> 
+    <td>{{ item.day.mintemp_f }} &deg;</td>
+    <td>{{ item.day.avghumidity }} %</td>
+  </tr>
 </table>

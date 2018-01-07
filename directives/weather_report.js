@@ -5,7 +5,11 @@
 
       return {
         restrict: 'E',
-        templateUrl: 'directives/weather_report.html'
+        templateUrl: 'directives/weather_report.html',
+        replace: true,
+        scope: {
+          data: '='
+        }
       };
 
     });
