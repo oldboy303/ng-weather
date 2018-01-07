@@ -1,3 +1,9 @@
 <h4>Forecast for {{ city }}</h4>
 <hr>
+<div>
+  <a class="button" href="#/forecast/3">3 Day Forecast</a>
+  <a class="button" href="#/forecast/5">5 Day Forecast</a>
+  <a class="button" href="#/forecast/7">7 Day Forecast</a>
+</div>
 <weather-report data="weatherResult.forecast.forecastday"></weather-report>
+<a href="#/" class="button" data-ng-click="newSearch()">New Search</a>

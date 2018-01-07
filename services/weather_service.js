@@ -9,8 +9,6 @@
         "https://api.apixu.com/v1/forecast.json?key=b8962b87a64949129d445924180501"
       );
 
-
-
     }]);
 
 }());
